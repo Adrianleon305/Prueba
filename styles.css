@@ -1,0 +1,248 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilo para la barra de progreso horizontal */
+.progress-bar {
+    height: 7px;
+    background-color: #ff8906;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    width: 0; /* Ancho inicial en cero */
+    transition: width 0.4s ease; /* Agregar una transición para suavizar el cambio de ancho */
+}
+
+
+
+
+
+header {
+    text-align: left;
+    padding: 70px;
+}
+
+/* Estilos para la sección "Acerca de mí" y "Proyectos de Desarrollo Web" */
+#Mi {
+    padding: 10px;
+    background-color: #d4d8f0;
+    display: flex; /* Usa Flexbox para alinear el contenido verticalmente */
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+    align-items: center; /* Centra horizontalmente el contenido */
+}
+
+#grafic {
+    padding: 20px;
+
+    color: #232946;
+    display: flex; /* Usa Flexbox para alinear el contenido verticalmente */
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+}
+
+
+
+
+
+
+
+                                        /*BOTÓN*************************************************/
+
+
+/* Estilos para el botón */
+.leer-descripcion {
+    background-color: #9656a1; /* Color de fondo */
+    color: #fff3ec; /* Color del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    padding: 10px 20px; /* Espaciado interno (arriba y abajo, izquierda y derecha) */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    margin-top: 10px; /* Espacio superior */
+}
+
+
+/* Estilos para el contenedor del texto de descripción */
+.ptext-container {
+    position: relative; /* Posición relativa para alinear el botón */
+}
+
+/* Estilos para mostrar el texto de descripción al hacer clic en el botón */
+.leer-descripcion.active + .ptext-description {
+    display: block; /* Muestra el contenido cuando el botón tiene la clase "active" */
+}
+
+/* Estilos para el botón cuando se muestra el contenido oculto */
+.leer-descripcion.active {
+    position: absolute; /* Cambia la posición del botón */
+    bottom: 0; /* Lo alinea al final del contenedor de texto */
+}
+
+
+                                        /*IMAGEN******************************************************/
+
+
+/* Estilos para la imagen */
+.project img.center-image {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    max-height: 10%;
+    width: 900px;
+}
+
+.center-video {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    max-height: 10%;
+    width: 900px;
+}
+
+
+
+
+
+
+
+                                        /*IMAGEN DE PERFIL *******************************************************/
+
+
+
+/* Estilos para la imagen de perfil y el texto */
+.profile-image {
+    width: 80px; /* Tamaño deseado para tu imagen */
+    height: 80px;
+    border-radius: 50%; /* Para hacer que la imagen sea redonda */
+    margin-right: 10px; /* Ajusta el espaciado entre la imagen y el texto */
+    border-radius: 50%; /* Para hacer que la imagen sea redonda */
+    margin-left: 10px; /* Ajustar el espaciado entre las imágenes y el texto */
+    transition: opacity 3s ease; /* Agrega una transición para suavizar el cambio de opacidad */
+}
+
+
+.about-container {
+    display: flex; /* Para alinear la imagen y el texto en una fila */
+    justify-content: center; /* Para centrar horizontalmente los elementos */        
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+
+
+
+
+
+
+
+
+
+
+                                        /*CELULAR ******************************************/
+
+
+
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+    /* Ajustar el tamaño de las imágenes */
+
+  /* Estilos para el video */
+  .center-video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 10%;
+    width: 1100px;
+  }
+
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h1.zz {
+        font-size: 36px;  
+    }
+
+    
+    h2 {
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+    }   
+
+    h2.about-heading {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        margin-right: 10px; /* Ajusta el espaciado entre la imagen y el texto */
+        justify-content: center;
+        align-items: center; /* Centra verticalmente los elementos */
+        margin-left: 120px;
+    }
+    
+
+
+    p {
+        text-align: left; 
+        font-size: 16px;
+        text-align: center;
+        margin-right: 20px; /* Ajusta el margen derecho */
+        margin-left: 20px;
+    }
+
+
+    p.ptext {
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin-right:10px; /* Ajusta el margen derecho */
+        margin-left: 20px;
+    
+    }
+
+
+    p.inicio {
+
+        font-size: 18px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .container {
+        margin: 2px; /* Ajusta el margen para pantallas más pequeñas */
+        border: 5px solid #121629;
+    }
+
+    header {
+        padding: 16px;
+    }
+    
+    
+
+      /* Estilos para los iconos de redes sociales */
+.social-icon {
+    font-size: 30px;
+    color: #fff3ec;
+    text-decoration: none;
+    margin: 0 0px;
+    transition: color 0.4s ease;
+    font-size: 38px;
+    margin: 20px;
+}
+
+  /* Efecto hover */
+  /* Efecto hover con escala */
+.social-icon:hover {
+    color: #e78fb3;
+    transform: scale(1.3); /* Escala el ícono un 20% más grande al hacer hover */
+}
+    /* Ajusta otros estilos según tus necesidades */
+}
+
+

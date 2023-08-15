@@ -1,0 +1,129 @@
+h1 {
+    font-size: 44px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilos para la línea horizontal personalizada */
+hr.custom {
+    border: none;
+    height: 2px;
+    background-color: #eebbc3; /* Cambia el color de la línea */
+    margin: 24px 0; /* Espacio alrededor de la línea */
+}
+
+/* Estilos para la línea horizontal personalizada */
+hr.separacion {
+    border: none;
+    height: 3px;
+    background-color: #140d0b; /* Cambia el color de la línea */
+    margin: 50px 0; /* Espacio alrededor de la línea */
+}
+
+hr.separacion2 {
+    border: none;
+    height: 6px;
+    background-color: #271c19; /* Cambia el color de la línea */
+    margin: 20px 0; /* Espacio alrededor de la línea */
+}
+
+
+
+
+
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+
+p.ptext {
+    display: block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 15%; /* Ajusta el margen derecho */
+    margin-left: 15%;
+
+}
+
+.about-heading {
+    text-align: center;
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30%;
+}
+
+/* Estilos para ocultar el contenido de ptext-container por defecto */
+.ptext-container {
+    display: none;
+}
+
+
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem; /* Tamaño de fuente base */
+    text-align: center;
+    margin-right: 10%; /* Ajusta el margen derecho */
+    margin-left: 10%;
+    line-height: 1.5; /* Espaciado entre líneas para mejorar la legibilidad */
+  }
+  
+
+
+p.inicio {
+
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 70px;
+}
+
+
+h1.zzz {
+    
+    font-size: 36px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+
+
+.footer {
+    background-color: #55423d;
+    text-align: center; /* Centrar el texto y los iconos */
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+    align-items: center; /* Centra horizontalmente los elementos */
+    padding: 20px 0;
+  }
+
+
+  .footer h2 {
+    color: #fff3ec;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  /* Estilos para los iconos de redes sociales */
+  .social-icon {
+    font-size: 40px;
+    color: #fff3ec;
+    text-decoration: none;
+    margin: 0 20px; /* Ajusta el espaciado entre los íconos */
+    transition: color 0.6s ease, transform 0.5s ease; /* Aumentar la duración a 0.5 segundos */
+    font-size: 40px;
+  }
+  
+  /* Efecto hover con escala */
+  .social-icon:hover {
+    color: #e78fb3;
+    transform: scale(1.3); /* Escala el ícono un 20% más grande al hacer hover */
+  }
+
